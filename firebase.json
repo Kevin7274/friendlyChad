@@ -1,6 +1,11 @@
 {
+  
+  "firestore": {
+    "rules": "firestore.rules"
+  },
   "hosting": {
-    "public": "./public",
+    "public": "./public"
+  },
     "headers": [{
       "source" : "**/*.@(js|html)",
       "headers" : [ {
@@ -9,4 +14,4 @@
       } ]
     }]
   }
-}
+
