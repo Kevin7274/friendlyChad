@@ -44,6 +44,8 @@ import {
 } from 'firebase/storage';
 import { getMessaging, getToken, onMessage } from 'firebase/messaging';
 import { getPerformance } from 'firebase/performance';
+// TODO: Enable Firebase Performance Monitoring.
+getPerformance();
 
 import { getFirebaseConfig } from './firebase-config.js';
 
