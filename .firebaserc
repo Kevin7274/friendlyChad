@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "friendlychadxd"
+    "default": "friendlychadxd",
+    "FriendlyChat": "friendlychadxd"
   },
   "targets": {},
   "etags": {}
